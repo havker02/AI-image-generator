@@ -3,7 +3,7 @@ import axios from "axios";
 
 const url = "https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image"
 
-const api_key = "stability_api_key"
+const api_key = "API_KEY" // stability api key
 
 // post request to generate image
 export async function POST(request:NextRequest) {
